@@ -11,6 +11,7 @@ Endpoints :
 """
 
 from fastapi import FastAPI, HTTPException
+from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel, Field, ConfigDict
 from contextlib import asynccontextmanager
 from typing import List
