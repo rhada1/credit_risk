@@ -66,6 +66,14 @@ app = FastAPI(
     lifespan    = lifespan,
 )
 
+# ── CORS — autoriser le frontend GitHub Pages
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"],
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
 
 # ══════════════════════════════════════════════
 # 3. SCHÉMA DES DONNÉES — Pydantic V2
