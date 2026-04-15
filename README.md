@@ -180,7 +180,7 @@ curl -X POST "http://localhost:8000/predict" \
 
 ##  Author
 
-PHARRAG Rhada
+HARRAG Rhada
 
 GitHub: @rhada1 (https://github.com/rhada1)
 LinkedIn: Rhada Harrag (https://www.linkedin.com/in/rhada-harrag-991634160/)
